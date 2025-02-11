@@ -25,9 +25,9 @@ export default defineConfig({
     },
     server: {
         https: false,
-        host: 'wine.test', // замените на ваш домен в Laragon
+        host: 'wine.test', // замените на ваш домен
         hmr: {
-            host: 'wine.test' // замените на ваш домен в Laragon
+            host: 'wine.test' // замените на ваш домен
         },
     },
 });
