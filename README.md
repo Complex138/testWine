@@ -36,7 +36,15 @@ php artisan queue:work
 
 # Сборка и запуск
 
-npm run build
-# или
+Запуск билда vue
 
 npm run dev # для разработки
+
+npm run build # для прода
+
+
+# Запуск http сервера
+
+php artisan serve
+
+или использовать http сервер
