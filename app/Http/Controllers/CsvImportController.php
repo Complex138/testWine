@@ -82,7 +82,7 @@ class CsvImportController extends Controller
     public function show(CsvImport $import)
     {
         return Inertia::render('Imports/Show', [
-            'importData' => $import // Переименовали проп
+            'importData' => $import
         ]);
     }
 }

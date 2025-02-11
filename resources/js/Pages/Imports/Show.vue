@@ -54,7 +54,7 @@
                 </div>
             </div>
 
-            <!-- После блока warnings -->
+            <!-- Черновики -->
             <div v-if="importData.drafts?.length" class="mb-6">
                 <h2 class="text-lg font-semibold mb-3">Черновики</h2>
                 <div class="bg-gray-50 p-4 rounded-lg">
@@ -85,7 +85,7 @@
 import { Link } from '@inertiajs/vue3'
 
 defineProps({
-    importData: Object // Переименовали проп с import на importData
+    importData: Object
 })
 
 function getStatusText(status) {
