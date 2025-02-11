@@ -21,7 +21,7 @@ class UserRequest extends FormRequest
                 'required',
                 'string',
                 'regex:/^\+7\d{10}$/',
-                Rule::unique('users')
+                Rule::unique('users')->ignore($this->route('user')) // Тут ignore исключаем текущего юзера и проверки номера, если редактируем учетку
             ],
             'birth_date' => ['required', 'date'],
             'address' => ['nullable', 'string', 'max:255'],

@@ -91,7 +91,7 @@ const props = defineProps({
 const form = useForm({
   name: props.user.name,
   phone: props.user.phone,
-  birth_date: props.user.birth_date,
+  birth_date: props.user.birth_date ? new Date(props.user.birth_date).toISOString().split('T')[0] : '',
   address: props.user.address,
   favorite_wine_id: props.user.favorite_wine_id
 })
