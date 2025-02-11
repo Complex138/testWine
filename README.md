@@ -17,9 +17,17 @@ APP_URL=http://wine.test
 VITE_SERVER_HOST=wine.test
 
 # Настройка vite.config.js
+
 server: {
+
     host: 'wine.test',
-    hmr: { host: 'wine.test' }
+
+    hmr: { 
+        
+        host: 'wine.test' 
+        
+    }
+
 }
 
 # Настройка БД и очистка
