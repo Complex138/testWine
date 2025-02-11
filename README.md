@@ -25,8 +25,8 @@ Laravel 10 + Vue проект для управления пользовател
 ### 1. Клонирование репозитория
 
 ```bash
-git clone [URL репозитория]
-cd [папка проекта]
+git clone https://github.com/Complex138/testWine.git
+cd testWine
 ```
 
 ### 2. Установка зависимостей
