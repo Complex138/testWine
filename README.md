@@ -27,14 +27,14 @@ server: {
 }
 
 # Настройка БД и очистка
-php artisan migrate:fresh
+php artisan migrate:fresh  Пересоздаем все миграции
 
-php artisan db:seed
+php artisan db:seed  Это не обязательно просто мок данные
 
-php artisan optimize:clear
+php artisan optimize:clear Сбросим кеш приложения на случай если что-то правиться.
 
 # Запуск очереди
-php artisan queue:work
+php artisan queue:work Запуск очередей важен для импорта CSV файлов
 
 # Сборка и запуск
 
