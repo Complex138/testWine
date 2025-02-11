@@ -37,7 +37,7 @@ npm install
 ```
 
 ### 3. Настройка окружения
-
+# Можно пропустить .env файл присутствует
 ```bash
 cp .env.example .env
 php artisan key:generate
