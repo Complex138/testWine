@@ -4,12 +4,6 @@ composer install
 
 npm install
 
-# Настройка .env
-
-cp .env.example .env
-
-php artisan key:generate
-
 # Настройка домена в .env
 
 APP_URL=http://wine.test
